@@ -6,7 +6,7 @@ Download all the repositories in bitbucket
 sudo cpan JSON
 
 # Usage
-1. Setup rsa ssh keys in .ssh apropriately (so that you have sshaccess to repositories)
+1. Setup rsa ssh keys in .ssh apropriately (so that you have ssh access to repositories)
 2. Create a list with all the repositories
 
   bash getAllRepos.sh \<bitbucket username\>
