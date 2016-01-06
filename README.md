@@ -3,8 +3,7 @@ Download all the repositories in bitbucket
 
 # Installation
 
-TODO
-
+sudo cpan JSON
 
 # Usage
 
