@@ -18,6 +18,6 @@ my $json = JSON->new;
 my $data = $json->decode($json_text);
 
 for ( @{$data} ) {
-   my $cmd = $_->{scm} . ' clone ' . "ssh://git\@bitbucket/" . $_->{owner} . "/" . $_->{name} . " " . "repos/" . $_->{name} . "\n";
+   my $cmd = $_->{scm} . ' clone ' . "ssh://git\@bitbucket.org/" . $_->{owner} . "/" . $_->{name} . " " . "repos/" . $_->{name} . "\n";
    system($cmd);
 }
