@@ -14,3 +14,7 @@ sudo cpan JSON
 3. Parse the list and download all the repositories in the directory repos/\<reponame\>
 
   perl parseJSON.perl
+
+# TO Do
+
+Support to pull changes automatically.
