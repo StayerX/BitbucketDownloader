@@ -6,11 +6,11 @@ Download all the repositories in bitbucket
 sudo cpan JSON
 
 # Usage
-
-1. Create a list with all the repositories
+1. Setup rsa ssh keys in .ssh apropriately (so that you have sshaccess to repositories)
+2. Create a list with all the repositories
 
   bash getAllRepos.sh \<bitbucket username\>
 
-2. Parse the list and download all the repositories in the directory repos/\<reponame\>
+3. Parse the list and download all the repositories in the directory repos/\<reponame\>
 
   perl parseJSON.perl
